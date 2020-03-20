@@ -1,0 +1,116 @@
+@font-face{
+    font-family: "Avenir Next";
+    src: url(src/font/AvenirNext.otf);
+}
+
+body{
+    margin: 0;
+    background: #FFFC00;
+    font-family: "Avenir Next";
+    
+}
+/*header*/
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+    align-items: center;
+    
+}
+header h1, h2{
+    margin:0;
+    padding-bottom:10px
+}
+.accueil{
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+.accueil img{
+    float: left;  
+    margin-top:5px;
+    
+}
+.accueil p{
+    float:right;
+    margin-bottom: 10px;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/*main*/
+.element1{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+.element2{
+    display: flex;
+    font-weight: bold;
+    
+
+}
+
+.function{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+
+.under{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.under img{
+    width: 200px;
+    height:200px;
+}
+.goto{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.goto a{
+    display: flex;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    border:transparent;
+    border-radius: 20px;
+    color:black;
+    font-weight: bolder;
+    background: white;
+    text-align:center;
+    padding-bottom: 20px;
+    margin: 20px;
+    
+    
+}
+
+/*footer*/
+footer{
+    display: flex;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+.imggoogle{
+    width:127px;
+    height:60px;
+}
+
+
+
