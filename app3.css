@@ -84,6 +84,20 @@ section img{
   padding-left: 1em;
 }
 
+/*footer*/
+
+footer{
+  display: flex;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+.imggoogle{
+  width:127px;
+  height:60px;
+}
+
 
 
 
