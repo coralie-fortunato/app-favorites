@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;
+}
+@font-face{
+  font-family: "billabong";
+  src: url(src/font/Billabong.ttf)
+}
+
+
+body{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    min-height: 100vh;
+    margin:0;
+    font-family: "billabong";
+  
+  }
+
+  header{
+    background: white;
+    height: 1em;
+    font-size: 2em;
+    margin: 0;
+    
+    
+  }
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+  }  
+  nav li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    text-decoration: none;
+  }
+
+  h1, h2{
+    margin:0;
+    padding-bottom:10px
+  }
+  h1{
+    font-size: 3em;
+  }
+  h2{
+    font-style: italic;
+  }
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/*main*/
+
+#bigcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+section{
+  width: 40%;
+  display: flex;
+  background: white;
+  padding: 1em;
+
+ 
+}
+
+section img{
+  width: 40%;
+  padding-left: 1em;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+  
